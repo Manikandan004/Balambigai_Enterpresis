@@ -81,8 +81,8 @@
     font-size: 12px;
   }
   section {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   section.half-section {
     padding-top: 40px;
@@ -3925,7 +3925,7 @@
     height: 250px !important;
   }
   .xs-h-300px {
-    height: 300px !important;
+    height: 50px !important;
   }
   .xs-h-350px {
     height: 350px !important;

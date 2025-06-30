@@ -21,6 +21,16 @@
         <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css"/>
         <link rel="stylesheet" href="demos/green-energy/green-energy.css"/>
+        <style>
+            .zoom-img {
+              transition: transform 0.3s ease;
+              cursor: zoom-in;
+            }
+
+            .zoom-img:hover {
+             transform: scale(1.05);
+            }
+        </style>
     </head>
     <body data-mobile-nav-style="classic">
         <!-- start header -->
@@ -55,7 +65,7 @@
                                         <li><a href="demo-green-energy-services-details.html"><i class="line-icon-Green-Energy align-middle text-base-color"></i>Renewable energy</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a href="demo-green-energy-project.html" class="nav-link">Project</a></li>
+                                <li class="nav-item"><a href="demo-green-energy-project.html" class="nav-link">Products</a></li>
                                 <li class="nav-item"><a href="demo-green-energy-blog.html" class="nav-link">Blog</a></li>
                                 <li class="nav-item"><a href="demo-green-energy-contact.html" class="nav-link">Contact</a></li>
                             </ul>
@@ -81,145 +91,164 @@
             <!-- end navigation -->
         </header>
         <!-- end header -->
-        <!-- start page title -->
-        <section class="top-space-margin overflow-hidden p-0 bg-very-light-gray page-title-big-typography">
-            <div class="container-fluid p-0">
-                <div class="row justify-content-center small-screen sm-h-400px g-0">
-                    <div class="col-md-6 d-flex justify-content-center flex-column ps-7 pe-15px sm-ps-15px cover-background text-white text-md-start text-center page-title-large" style="background-image: url('images/demo-green-energy-about-title-left-bg-01.jpg');" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-                        <h1 class="fw-600 mb-10px ls-minus-2px">Project</h1>
-                        <h2 class="opacity-6 mb-0 fw-300">Energy services and solutions</h2>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="h-100 position-relative cover-background sm-pt-50px" style="background-image: url('https://via.placeholder.com/960x446');" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
-                            <div class="fs-140 xl-fs-120 lg-fs-100 md-fs-80 ls-minus-6px md-ls-minus-4px sm-ls-minus-2px text-white position-absolute bottom-minus-20px sm-bottom-minus-10px w-100 text-center"><span class="fw-700">6140</span> work</div>
-                        </div>
-                    </div>
-                </div>
+<!-- start page title -->
+<section class="top-space-margin overflow-hidden p-0 bg-very-light-gray page-title-big-typography">
+  <div class="container-fluid p-0">
+    <div class="row justify-content-center small-screen sm-h-400px g-0">
+      <div class="col-md-6 d-flex justify-content-center flex-column ps-7 pe-15px sm-ps-15px cover-background text-white text-md-start text-center page-title-large"
+        style="background-image: url('images/demo-green-energy-about-title-left-bg-01.jpg');"
+        data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+        <h1 class="fw-600 mb-10px ls-minus-2px">Products</h1>
+        <h2 class="opacity-6 mb-0 fw-300">Energy services and solutions</h2>
+      </div>
+      <div class="col-md-6">
+        <div class="h-100 position-relative cover-background sm-pt-50px"
+          style="background-image: url('https://via.placeholder.com/960x446');"
+          data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 200, "easing": "easeOutQuad" }'>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end page title -->
+
+<!-- start gallery items -->
+<section class="py-5">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+
+      <!-- Product 1: Fasteners -->
+      <div class="col-12">
+        <div class="card border-0 shadow-sm p-3">
+          <div class="row align-items-center g-0">
+            <div class="col-md-8">
+              <div class="px-3 px-md-4 py-2">
+                <h5 class="fw-bold mb-2">Fasteners</h5>
+                <p class="mb-0 text-muted">High-quality fasteners for secure and lasting industrial connections.</p>
+              </div>
             </div>
-        </section> 
-        <!-- end page title -->
-        <section class="bg-very-light-green">
-            <div class="container" data-anime='{"opacity": [0,1], "duration": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                <div class="row">
-                    <div class="col">
-                        <ul class="image-gallery-style-01 gallery-wrapper grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
-                            <li class="grid-sizer"></li> 
-                            <!-- start gallery item -->
-                            <li class="grid-item transition-inner-all">
-                                <div class="gallery-box border-radius-6px">
-                                    <a href="https://via.placeholder.com/800x946" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                        <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                            <img src="https://via.placeholder.com/800x946" alt="" />
-                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                                <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                    <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <!-- end gallery item -->
-                            <!-- start gallery item -->
-                            <li class="grid-item transition-inner-all">
-                                <div class="gallery-box border-radius-6px">
-                                    <a href="https://via.placeholder.com/800x946" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                        <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                            <img src="https://via.placeholder.com/800x946" alt="" />
-                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                                <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                    <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <!-- end gallery item -->
-                            <!-- start gallery item -->
-                            <li class="grid-item transition-inner-all">
-                                <div class="gallery-box border-radius-6px">
-                                    <a href="https://via.placeholder.com/800x946" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                        <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                            <img src="https://via.placeholder.com/800x946" alt="" />
-                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                                <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                    <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <!-- end gallery item -->
-                            <!-- start gallery item -->
-                            <li class="grid-item transition-inner-all">
-                                <div class="gallery-box border-radius-6px">
-                                    <a href="https://via.placeholder.com/800x946" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                        <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                            <img src="https://via.placeholder.com/800x946" alt="" />
-                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                                <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                    <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <!-- end gallery item -->
-                            <!-- start gallery item -->
-                            <li class="grid-item transition-inner-all">
-                                <div class="gallery-box border-radius-6px">
-                                    <a href="https://via.placeholder.com/800x946" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                        <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                            <img src="https://via.placeholder.com/800x946" alt="" />
-                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                                <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                    <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <!-- end gallery item -->
-                            <!-- start gallery item -->
-                            <li class="grid-item transition-inner-all">
-                                <div class="gallery-box border-radius-6px">
-                                    <a href="https://via.placeholder.com/800x946" data-group="lightbox-gallery" title="Lightbox gallery image title">
-                                        <div class="position-relative gallery-image bg-dark-gray overflow-hidden">
-                                            <img src="https://via.placeholder.com/800x946" alt="" />
-                                            <div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-bottom-top">
-                                                <div class="d-flex align-items-center justify-content-center w-60px h-60px rounded-circle bg-white">
-                                                    <i class="icon feather icon-feather-search icon-extra-medium text-dark-gray"></i>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </li>
-                            <!-- end gallery item -->
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-4 text-md-end text-center">
+              <a href="images/Fasteners.jpg" target="_blank">
+                <img src="images/Fasteners.jpg" alt="Fasteners" class="img-fluid rounded shadow zoom-img">
+              </a>
             </div>
-        </section>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 2: Rubber Products -->
+      <div class="col-12">
+        <div class="card border-0 shadow-sm p-3">
+          <div class="row align-items-center g-0">
+            <div class="col-md-8">
+              <div class="px-3 px-md-4 py-2">
+                <h5 class="fw-bold mb-2">Rubber Products</h5>
+                <p class="mb-0 text-muted">Durable rubber components used in sealing, insulation, and shock absorption.</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-md-end text-center">
+              <a href="images/Rubbers.jpg" target="_blank">
+                <img src="images/Rubbers.jpg" alt="Rubber Products" class="img-fluid rounded shadow zoom-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 3: Casting Products -->
+      <div class="col-12">
+        <div class="card border-0 shadow-sm p-3">
+          <div class="row align-items-center g-0">
+            <div class="col-md-8">
+              <div class="px-3 px-md-4 py-2">
+                <h5 class="fw-bold mb-2">Casting Products</h5>
+                <p class="mb-0 text-muted">High-precision casting solutions including sand, die, and investment castings.</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-md-end text-center">
+              <a href="images/Casting.jpg" target="_blank">
+                <img src="images/Casting.jpg" alt="Casting Products" class="img-fluid rounded shadow zoom-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 4: Forging Products -->
+      <div class="col-12">
+        <div class="card border-0 shadow-sm p-3">
+          <div class="row align-items-center g-0">
+            <div class="col-md-8">
+              <div class="px-3 px-md-4 py-2">
+                <h5 class="fw-bold mb-2">Forging Products</h5>
+                <p class="mb-0 text-muted">Forged metal components known for strength, durability, and performance.</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-md-end text-center">
+              <a href="images/Forging.jpg" target="_blank">
+                <img src="images/Forging.jpg" alt="Forging Products" class="img-fluid rounded shadow zoom-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 5: Lubricants -->
+      <div class="col-12">
+        <div class="card border-0 shadow-sm p-3">
+          <div class="row align-items-center g-0">
+            <div class="col-md-8">
+              <div class="px-3 px-md-4 py-2">
+                <h5 class="fw-bold mb-2">Lubricants</h5>
+                <p class="mb-0 text-muted">Premium lubricants to reduce friction, wear, and improve equipment life.</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-md-end text-center">
+              <a href="images/Lubricants.jpg" target="_blank">
+                <img src="images/Lubricants.jpg" alt="Lubricants" class="img-fluid rounded shadow zoom-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Product 6: Transmission Belts -->
+      <div class="col-12">
+        <div class="card border-0 shadow-sm p-3">
+          <div class="row align-items-center g-0">
+            <div class="col-md-8">
+              <div class="px-3 px-md-4 py-2">
+                <h5 class="fw-bold mb-2">Transmission Belts</h5>
+                <p class="mb-0 text-muted">Reliable belts for power transmission in industrial machinery.</p>
+              </div>
+            </div>
+            <div class="col-md-4 text-md-end text-center">
+              <a href="images/TransmissionBelts.jpg" target="_blank">
+                <img src="images/TransmissionBelts.jpg" alt="Transmission Belts" class="img-fluid rounded shadow zoom-img">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
         <!-- start footer -->
-        <footer class="bg-dark-gray pb-30px">
+                <footer class="bg-dark-gray pb-30px">
             <div class="container">
                 <div class="row mb-5 xs-mb-30px">
                     <div class="col-xl-5 col-md-7 sm-mb-30px order-2 order-xl-1">
-                        <h3 class="text-white fw-600 mb-30px ls-minus-2px">Quality solar panels for home and business.</h3>
+                        <h3 class="text-white fw-600 mb-30px ls-minus-2px">Everything is Possible</h3>
                         <div class="row">
                             <div class="col-xxl-5 col-sm-6 sm-mb-20px">
                                 <span class="fs-18 fw-500 text-white d-block">Say hello</span>
-                                <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+                                <a href="mailto:info@yourdomain.com">balambigalenterprises@gmail.com</a>
                             </div>
-                            <div class="col-xxl-5 col-sm-6">
+                            <!-- <div class="col-xxl-5 col-sm-6">
                                 <span class="fs-18 fw-500 text-white d-block">Call anytime</span>
                                 <a href="tel:1800222000">1 800 222 000</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-6 order-3 order-md-2">
@@ -243,7 +272,9 @@
                         </ul>
                     </div>
                     <div class="col-xl-3 order-1 order-xl-4 lg-mb-30px">
-                        <a href="demo-green-energy.html" class="footer-logo"><img src="images/demo-green-energy-logo-white.png" data-at2x="images/demo-green-energy-logo-white@2x.png" alt=""></a>
+                        <a href="demo-green-energy.html" class="footer-logo">
+                            <img src="images/Enterprises.png" alt="" >
+                          </a>                    
                     </div>
                 </div>
                 <div class="row g-0 border-top border-color-transparent-white-light"></div>
